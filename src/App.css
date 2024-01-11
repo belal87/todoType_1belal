@@ -1,0 +1,76 @@
+.mainDiv {
+  display: grid;
+  justify-content: center;
+}
+.navBar {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  border-bottom: 1px solid black;
+}
+.navBar #link {
+  padding: 5px 49px;
+  list-style: none;
+  font-size: 18px;
+}
+.navBar .link a {
+  text-decoration: none !important;
+  list-style: none !important;
+}
+
+nav a:hover {
+  border-color: #3a3845;
+}
+nav a.acitve {
+  color: #000;
+  border-color: #68b984;
+}
+
+.formElement {
+  display: flex;
+  justify-content: center;
+}
+.formElement input {
+  width: 350px;
+}
+.formElement input[type="text"] {
+  padding: 3px;
+  font-size: 18px;
+}
+.formElement button {
+  padding: 3px;
+  font-size: 18px;
+  cursor: pointer;
+  width: 80px;
+}
+
+.ULclass {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ULclass input {
+  cursor: pointer;
+}
+
+.ULclass ul li {
+  width: 300px;
+  list-style: none;
+  padding: 5px 0;
+  margin: 5px 0;
+  font-size: 19px;
+}
+.ULclass ul li input[type="checkbox"]:checked + label {
+  text-decoration: line-through;
+  color: brown;
+}
+.ULclass ul li label {
+  margin-left: 7px;
+  font-size: 21px;
+}
+.ULclass ul li button {
+  margin-left: 14px;
+  padding: 5px;
+  width: 65px;
+  font-size: 17px;
+}
