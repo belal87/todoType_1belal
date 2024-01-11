@@ -74,3 +74,17 @@ nav a.acitve {
   width: 65px;
   font-size: 17px;
 }
+@media screen and (max-width: 580px) {
+  #root {
+    width: 500px;
+  }
+  .navBar {
+    margin-bottom: 10px;
+  }
+  .formElement {
+    margin-top: 20px;
+  }
+  .formElement input[type="text"] {
+    border: 1px solid black;
+  }
+}
