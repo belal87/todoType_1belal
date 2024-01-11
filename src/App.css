@@ -78,6 +78,10 @@ nav a.acitve {
   #root {
     width: 500px;
   }
+  .mainDiv {
+    display: grid;
+    justify-content: center;
+  }
   .navBar {
     margin-bottom: 10px;
   }
