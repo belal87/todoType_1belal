@@ -74,13 +74,19 @@ nav a.acitve {
   width: 65px;
   font-size: 17px;
 }
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 450px) {
   #root {
     width: 500px;
   }
   .mainDiv {
     display: grid;
     justify-content: center;
+  }
+  .navBar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    border-bottom: 1px solid black;
   }
   .navBar {
     margin-bottom: 10px;
