@@ -97,4 +97,7 @@ nav a.acitve {
   .formElement input[type="text"] {
     border: 1px solid black;
   }
+  .mainDiv h1 {
+    font-size: 22px;
+  }
 }
